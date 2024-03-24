@@ -1,8 +1,11 @@
-# React + Vite
+# Travel Journal 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was created as part of the Frontend Developer Career Path by Scrimba. The design is based on a Figma file provided by Scrimba. However, the development and implementation was done entirely by me.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application was developed using HTML, CSS, and React. Vite was utilized for both the development process and application bundling.
+
+## Setup
+
+To run this project locally, clone the repository and install the dependencies using `npm install`. Run `npm run dev` to start the development server.
