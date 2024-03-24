@@ -11,3 +11,7 @@ This application was developed using HTML, CSS, and React. Vite was utilized for
 ## Setup
 
 To run this project locally, clone the repository and install the dependencies using `npm install`. Run `npm run dev` to start the development server.
+
+## Live Demo
+
+Check it out [here](https://shimmering-nasturtium-4a4ccc.netlify.app/)!
