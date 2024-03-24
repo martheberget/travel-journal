@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 50px 45px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar__logo {
+  height: 28px;
+  width: 28px;
+  margin-right: 7px;
+}
+
+.navbar__title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.075em;
+}
+
+/* CARD */
+
+.card {
+  color: #2b283a;
+  max-width: 650px;
+  margin: auto;
+}
+
+.card__container {
+  display: flex;
+  margin-top: 18px;
+}
+
+.card__text--container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.card__location--container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.card__image {
+  width: 170px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card__location--title,
+.card__location--date,
+.card__location--description,
+.card__location--location {
+  margin: 0;
+}
+
+.card__location--pin {
+  width: 10px;
+  height: 14.5px;
+}
+
+.card__location--location {
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.17em;
+  margin-left: 6px;
+  margin-right: 12px;
+}
+
+.card__location--link {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.card__location--link:link,
+.card__location--link:visited {
+  color: #918e9b;
+}
+
+.card__location--title {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 7px;
+}
+
+.card__location--date {
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.card__location--description {
+  font-size: 0.9rem;
+  line-height: 150%;
+  font-weight: 400;
+  margin-top: 9px;
+}
+
+.card__line {
+  border: none;
+  height: 1px;
+  background-color: #f5f5f5;
+  margin: 18px 0 0 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  section {
+    padding: 30px 25px;
+  }
+
+  /* NAVBAR */
+
+  .navbar__logo {
+    height: 24px;
+    width: 24px;
+  }
+
+  .navbar__title {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    height: 55px;
+  }
+
+  /* CARD */
+
+  .card__image {
+    width: 125px;
+    height: 168px;
+  }
+
+  .card__location--pin {
+    width: 7px;
+    height: 9px;
+  }
+
+  .card__location--link,
+  .card__location--location,
+  .card__location--date {
+    font-size: 0.6rem;
+  }
+
+  .card__location--title {
+    font-size: 1.2rem;
+  }
+
+  .card__location--description {
+    font-size: 0.6rem;
+  }
+}
